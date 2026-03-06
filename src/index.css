@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.builder {
+  display: grid;
+  grid-template-columns: 220px 1fr 260px;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.canvas {
+  background: #f1f5f9;
+  padding: 20px;
+  overflow: auto;
+}
+
+.block {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.drag {
+  cursor: grab;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+.panel {
+  background: #e2e8f0;
+  padding: 20px;
+}
+
+.file-card {
+  background: #f1f5f9;
+  padding: 8px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.builder {
+  display: grid;
+  grid-template-columns: 220px 1fr 260px;
+  height: 100vh;
+  background: #f4f6fb;
+}
+
+/* Canvas Professional Background */
+.canvas {
+  flex: 1;
+  padding: 40px;
+  overflow: visible;
+  min-height: 100%;
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
+}
+
+/* Blocks */
+.block {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.25s;
+}
+
+.block:hover {
+  transform: translateY(-3px);
+}
+
+/* Panel */
+.panel {
+  background: #edf2ff;
+  padding: 25px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: linear-gradient(180deg,#1e293b,#0f172a);
+}
