@@ -166,11 +166,16 @@ Your app will automatically generate a **live demo link**.
 
 
 # 👨‍💻 Author
+**Alladi Usha**
 
-**Jesci Arul**
+GitHub Profile 
 
-GitHub Profile  
 https://github.com/UshaAlladi05
+
+**Arul Jescintha**
+
+GitHub Profile 
+
 https://github.com/JesciArul
 
 ---
