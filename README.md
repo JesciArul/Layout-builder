@@ -12,8 +12,7 @@ This application allows users to create customizable page layouts by adding comp
 
  https://layoubuilder.netlify.app
 
-🔗 GitHub Repository  
-https://github.com/JesciArul/Layout-builder
+
 
 ---
 
