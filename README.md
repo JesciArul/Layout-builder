@@ -1,18 +1,228 @@
-# React + Vite
+# 🚀 React Layout Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Drag-and-Drop Layout Builder** built using **React + Vite**.  
+This application allows users to create customizable page layouts by adding components like **text, images, and cards**, then export the final layout as an **Image or PDF**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🔗 Live Application  
+ https://layout-builder-7ugc23thf-jessyjescinthaarul-7731s-projects.vercel.app/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+ layoubuilder.netlify.app
 
-Note: This will impact Vite dev & build performances.
+🔗 GitHub Repository  
+https://github.com/JesciArul/Layout-builder
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🎨 Drag and drop layout components
+- 📝 Add and edit text blocks
+- 🖼️ Upload and display images
+- 🧩 Add card components
+- ⚙️ Editable property panel
+- 👀 Real-time layout preview
+- 📄 Export layout as **PDF**
+- 🖼️ Export layout as **Image**
+- 📱 Responsive layout builder
+- ⚡ Fast development with **Vite**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📁 Project Structure
+
+```bash
+layoutbuilder
+│
+├── public
+│   ├── index.html
+│   └── vite.svg
+│
+├── src
+│   │
+│   ├── components
+│   │   ├── Sidebar.jsx
+│   │   ├── Canvas.jsx
+│   │   ├── PropertyPanel.jsx
+│   │   ├── BlockRenderer.jsx
+│   │   └── SortableBlock.jsx
+│   │
+│   ├── utils
+│   │   └── exportLayout.js
+│   │
+│   ├── assets
+│   │   └── react.svg
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/JesciArul/Layout-builder.git
+```
+
+Navigate to project directory:
+
+```bash
+cd Layout-builder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🧪 Build for Production
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+# 🌍 Deployment
+
+This project can be deployed using:
+
+- :contentReference[oaicite:1]{index=1}
+- :contentReference[oaicite:2]{index=2}
+- :contentReference[oaicite:3]{index=3} Pages
+
+### Deploy Steps
+
+1. Push project to GitHub
+2. Login to Vercel or Netlify
+3. Import your repository
+4. Configure build settings
+
+Build command:
+
+```bash
+npm run build
+```
+
+Publish directory:
+
+```
+dist
+```
+
+Your app will automatically generate a **live demo link**.
+
+---
+
+# 🎯 Use Cases
+
+- UI Layout Prototyping
+- Drag-and-Drop Interface Builder
+- Web Page Layout Design
+- Learning React Component Architecture
+
+---
+
+# 📸 Screenshots
+
+You can add screenshots here after uploading images.
+
+Example:
+
+```
+![Layout Builder Screenshot](./screenshots/layout-builder.png)
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+Steps:
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
+
+**Jesci Arul**
+
+GitHub Profile  
+https://github.com/JesciArul
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**!
