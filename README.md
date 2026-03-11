@@ -10,7 +10,7 @@ This application allows users to create customizable page layouts by adding comp
 🔗 Live Application  
  https://layout-builder-7ugc23thf-jessyjescinthaarul-7731s-projects.vercel.app/
 
- layoubuilder.netlify.app
+ https://layoubuilder.netlify.app
 
 🔗 GitHub Repository  
 https://github.com/JesciArul/Layout-builder
@@ -131,11 +131,6 @@ npm run preview
 
 # 🌍 Deployment
 
-This project can be deployed using:
-
-- :contentReference[oaicite:1]{index=1}
-- :contentReference[oaicite:2]{index=2}
-- :contentReference[oaicite:3]{index=3} Pages
 
 ### Deploy Steps
 
@@ -169,58 +164,13 @@ Your app will automatically generate a **live demo link**.
 
 ---
 
-# 📸 Screenshots
-
-You can add screenshots here after uploading images.
-
-Example:
-
-```
-![Layout Builder Screenshot](./screenshots/layout-builder.png)
-```
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-Steps:
-
-1. Fork the repository
-2. Create your feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to branch
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 # 👨‍💻 Author
 
 **Jesci Arul**
 
 GitHub Profile  
+https://github.com/UshaAlladi05
 https://github.com/JesciArul
 
 ---
